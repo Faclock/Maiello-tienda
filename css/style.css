@@ -1,6 +1,15 @@
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+  body{
+ background-color: rgba(232, 201, 169, 50%);
+  } 
+  .carousel{
+    padding-top: 0.3rem;
+  }
+  .sidebar {
+    background-color:rgba(207, 154, 99, 50%);
+  }
   .encabezado {
     background-color: #BF9B77;
     text-align: center;
@@ -19,6 +28,7 @@
  }
  .cartas2 {
     padding-top: 5rem;
+    padding-bottom: 5rem;
     margin: auto;
  }
   .card-img-top {
@@ -50,3 +60,23 @@
   width: 500px;
   height: 500px;
 }
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+.marketing .col-lg-4 {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+

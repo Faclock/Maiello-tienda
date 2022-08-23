@@ -1,3 +1,51 @@
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+  .encabezado {
+    background-color: #BF9B77;
+    text-align: center;
+    color: white;
+  }
+  .texto.Carrusel {
+   text-decoration: solid;
+   color: black;
+  }
+  .navbar {
+    font-size: xx-large;
+  }
+ .cartas1{
+    padding-top: 10rem;
+    margin: auto;
+ }
+ .cartas2 {
+    padding-top: 5rem;
+    margin: auto;
+ }
+  .card-img-top {
+    height: 500px;
+    object-fit:cover;
+  }
+  .tituloProductos {
+    background-color: #BF9B77;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 90%;
+}
+.card {
+  height: 750px;
+}
+
+.card-body{
+  background-color: #BF9B77;
+  text-decoration: none;
+
+}
+.pagination {
+  padding-top: 5rem;
+}
+.promos {
+  padding-top: 1px;
+}

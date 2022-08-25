@@ -10,20 +10,27 @@
   .sidebar {
     background-color:rgba(207, 154, 99, 50%);
   }
+  h1 {
+    color: white
+  }
   .encabezado {
     background-color: #BF9B77;
     text-align: center;
     color: white;
   }
-  .texto.Carrusel {
-   text-decoration: solid;
+  h5{
    color: black;
+  }
+  p {
+    color: black;
   }
   .navbar {
     font-size: xx-large;
   }
  .cartas1{
+
     padding-top: 10rem;
+    padding-bottom: 5rem;
     margin: auto;
  }
  .cartas2 {
@@ -31,6 +38,7 @@
     padding-bottom: 5rem;
     margin: auto;
  }
+
   .card-img-top {
     height: 500px;
     object-fit:cover;
@@ -79,4 +87,9 @@
   margin-right: .75rem;
   margin-left: .75rem;
 }
+main {
+  padding: 2rem;
+  margin: 2rem;
+}
+
 

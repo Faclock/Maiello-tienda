@@ -1,5 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif; }
+
 .selector-for-some-widget {
   box-sizing: content-box; }
+
+h3 {
+  text-align: center;
+  font-size: x-large; }
+
+.card-footer {
+  background-color: #8a6745; }
 
 body {
   background-color: #e8c9a9; }
@@ -14,7 +28,7 @@ h1 {
   color: white; }
 
 .encabezado {
-  background-color: #BF9B77;
+  background-color: #8a6745;
   text-align: center;
   color: white; }
 

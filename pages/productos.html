@@ -1,446 +1,354 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>entrega bootstrap</title>
-    <!-- BOOTSRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  </head>
 
-  <body>
-    <!-- INICIO HEADER -->
-    <header class="encabezado">
-      <nav class="navbar navbar-expand-lg" style="background-color:#BF9B77;">
-        <div class="container-fluid">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <img
-                class="nav justify-content-start"
-                src="../img/logo.png"
-                alt=""
-                width="100"
-                height="100"
-              />
-            </a>
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="promos.html">Promos</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="productos.html"
-                  >Productos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre nosotros.html"
-                  >Sobre nosotros</a
-                >
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-              </li>
-              <li class="nav-item">
-                <a href="carrito.html"><i class="fa-solid fa-cart-shopping fa-2xl carrito-Compras"></i></a>
-              </li>
-            </ul>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tienda creada para la tienda de pasteleria y panaderia LaFonteD´ore." />
+  <title>Tienda La Fonte D´ORO</title>
+  <!-- BOOTSRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- INICIO HEADER -->
+  <header class="encabezado">
+    <nav class="navbar navbar-expand-lg" style="background-color:#8a6745;">
+      <div class="container-fluid">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="nav justify-content-start" src="../img/logo.png" alt="" width="100" height="100" />
+          </a>
         </div>
-      </nav>
-    </header>
-    <!-- TERMINA EL HEADER -->
-    <!-- INICIA SIDEBAR -->
-    <div class="sidebar flex-shrink-0 p-3" style="width: 280px">
-      <a
-        href="/"
-        class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"
-      >
-        <svg class="bi pe-none me-2" width="30" height="24">
-          <use xlink:href="#bootstrap" />
-        </svg>
-        <span class="fs-5 fw-semibold">Tienda</span>
-      </a>
-      <ul class="list-unstyled ps-0">
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#home-collapse"
-            aria-expanded="false"
-          >
-            Tortas
-          </button>
-          <div class="collapse" id="home-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >cheescake</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Brownies</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Lemon pies</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#dashboard-collapse"
-            aria-expanded="false"
-          >
-            Desayunos
-          </button>
-          <div class="collapse" id="dashboard-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >familiar</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Para 2 personas</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#orders-collapse"
-            aria-expanded="false"
-          >
-            Otros
-          </button>
-          <div class="collapse" id="orders-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Regalos</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Ingredientes</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Congelados</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Take away</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <!-- TERMINA SIDEBAR -->
-    <main>
-      <!-- INICIA SHOWCASE DE PRODUCTOS -->
-      <h1 class="text-center" style="background-color: #bf9b77">
-         Promociones destacadas
-      </h1>
-      <div class="container promos">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 4.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 5.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 4.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 5.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 6.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 8.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="../img/promo 3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn colorBtn">Añadir al Carrito</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- TERMINA SHOWCASE DE PRODUCTOS -->
-    </main>
-    <!-- INICIO DE PASAR PAGINA -->
-    <nav aria-label="Page navigation example">
-      <ul class="pagination justify-content-center">
-        <li class="page-item disabled">
-          <a class="page-link">Previous</a>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#">Next</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- CIERRE DE PASAR PAGINA -->
-    <!-- INICIO FOOTER -->
-            <div class="container">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-            <li class="nav-item"><a href="pages/promos.html" class="nav-link px-2 text-muted">Promos</a></li>
-            <li class="nav-item"><a href="pages/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
-            <li class="nav-item"><a href="pages/sobre nosotros.html" class="nav-link px-2 text-muted">Sobre nosotros</a></li>
-            <li class="nav-item"><a href="pages/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promos.html">Promos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre nosotros.html">Sobre nosotros</a>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a href="carrito.html"><i class="fa-solid fa-cart-shopping fa-2xl carrito-Compras"></i></a>
+            </li>
           </ul>
-          <p class="text-center text-muted">&copy; 2022 LaFonteD´ore, Inc. Sitio creado por facundo maiello</p>
-        </footer>
+        </div>
       </div>
-    <!-- TERMINA FOOTER -->
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://kit.fontawesome.com/29f51a6259.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+    </nav>
+  </header>
+  <!-- TERMINA EL HEADER -->
+  <!-- INICIA SIDEBAR -->
+  <div class="sidebar flex-shrink-0 p-3" style="width: 280px">
+    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      <svg class="bi pe-none me-2" width="30" height="24">
+        <use xlink:href="#bootstrap" />
+      </svg>
+      <span class="fs-5 fw-semibold">Tienda</span>
+    </a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+          Tortas
+        </button>
+        <div class="collapse" id="home-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">cheescake</a>
+            </li>
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Brownies</a>
+            </li>
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Lemon pies</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Desayunos
+        </button>
+        <div class="collapse" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">familiar</a>
+            </li>
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Para 2 personas</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+          Otros
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Regalos</a>
+            </li>
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Ingredientes</a>
+            </li>
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Congelados</a>
+            </li>
+            <li>
+              <a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Take away</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- TERMINA SIDEBAR -->
+  <main>
+    <!-- INICIA SHOWCASE DE PRODUCTOS -->
+    <h1 class="text-center" style="background-color: #bf9b77">
+      Promociones destacadas
+    </h1>
+    <div class="container promos">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">alfajores x12</h5>
+              <p class="card-text">
+                12 aljarojes de chocolate con dulce de leche, bañados en chocolate.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">alfajores Hojaldre</h5>
+              <p class="card-text">
+                12 alfajores de hojaldre con dulce de leche, bañados con nueces molidas.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Torta balcarse</h5>
+              <p class="card-text">
+                torta balcarce
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Torta de cumpleaños</h5>
+              <p class="card-text">
+                Torta de cumpleaños clasica
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Empanadas x12</h5>
+              <p class="card-text">
+                12 empanadas, sabores a elegir
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Conitos x6</h5>
+              <p class="card-text">
+                6 conitos de dulce de leche, bañados en chocolate.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 7.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Torta rojel</h5>
+              <p class="card-text">
+                Torta rojel clasica.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 8.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Imperial ruso</h5>
+              <p class="card-text">
+                Torta imperial rusa.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 9.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Coco y dulce de leche</h5>
+              <p class="card-text">
+                Torta de coco con relleno de dulce de leche.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 10.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Manzana y pastelera</h5>
+              <p class="card-text">
+                Torta de manzana con relleno de crema pastelera.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 11.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pastafrola</h5>
+              <p class="card-text">
+                Torta Pastafrola clasica con relleno de membrillo o batata.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/productos/producto 12.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Torta de zanahoria</h5>
+              <p class="card-text">
+                Torta de zanahoria clasica.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn colorBtn">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TERMINA SHOWCASE DE PRODUCTOS -->
+  </main>
+  <!-- INICIO DE PASAR PAGINA -->
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- CIERRE DE PASAR PAGINA -->
+  <!-- INICIO FOOTER -->
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+        <li class="nav-item"><a href="pages/promos.html" class="nav-link px-2 text-muted">Promos</a></li>
+        <li class="nav-item"><a href="pages/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+        <li class="nav-item"><a href="pages/sobre nosotros.html" class="nav-link px-2 text-muted">Sobre nosotros</a>
+        </li>
+        <li class="nav-item"><a href="pages/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 LaFonteD´ore, Inc. Sitio creado por facundo maiello</p>
+    </footer>
+  </div>
+  <!-- TERMINA FOOTER -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/29f51a6259.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
